@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import './Variable.scss';
+
+.font-13-700 {
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.625px;
+}
+
+.font-15-400 {
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 173.333% */
+    letter-spacing: -0.1px;
+}
+
+.font-15-700 {
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 173.333% */
+    letter-spacing: -0.1px;
+}
+
+.font-17-400 {
+    font-family: "Open Sans";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px; /* 170.588% */
+    letter-spacing: -0.2px;
+}
+
+.font-17-700 {
+    font-family: "Open Sans";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 188.235% */
+    letter-spacing: -0.6px;
+}
+
+.font-19-400 {
+    font-family: "Open Sans";
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 168.421% */
+    letter-spacing: -0.2px;
+}
+
+.font-21-700 {
+    font-family: "Open Sans";
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 152.381% */
+    letter-spacing: -0.5px;
+}
+
+.font-24-700 {
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px; /* 141.667% */
+    letter-spacing: -0.5px;
+}
+
+.font-48-700 {
+    font-family: "Open Sans";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 58px; /* 120.833% */
+    letter-spacing: -1.8px;
+}
+
+.font-60-700 {
+    font-family: "Open Sans";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 65px; /* 108.333% */
+    letter-spacing: -2px;
+}
+
+.primary-color {
+    color: $primary-color;
+}
+
+.secondary-color {
+    color: $secondary-color;
+}
+
+.font-primary-opacity {
+    opacity: $primary-opacity;
+}
+
+.font-secondary-opacity {
+    opacity: $secondary-opacity;
+}
+
+.banner-color {
+    color: #68D585;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.banner-img {
+    background: url("/src/assets/images/austin-distel-wawEfYdpkag-unsplash.png") #161C2D;
+    background-size: cover;
+    height: 1200px;
+
+}
+
+@mixin bg($a) {
+    background: $a;
+}
+
+.bg-first-color {
+    @include bg($primary-bg-color);
+}
+
+@mixin border-radius($b) {
+    border-radius: $b;
+}
+
+.img-radius {
+    @include border-radius(10px);
+}
+
+.bg-second-color {
+    @include bg($secondary-color);
+}
+
+
+.bg-radius {
+    @include border-radius(10px);
+}
+
+.bg-third-color {
+    background-color: $secondary-bg-color;
+}
+
+
+
